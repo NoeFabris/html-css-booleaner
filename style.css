@@ -34,3 +34,17 @@ section{
 ul{
     margin-left: 1%;
 }
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 2px solid black;   
+}
+.riga-blu{
+    background-color: aqua;
+}
+table th {
+    background-color: #31a2be;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: left;
+}
