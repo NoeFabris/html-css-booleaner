@@ -14,8 +14,12 @@
     width: 15%;  
 }
 main{
-    margin-left: 7%;
-    margin-top: 1%;
+    margin: auto;
+    width: 50%;
+    text-align: left;
+}
+section{
+    padding-top: 1%;
 }
 .autore{
     color: gray;
@@ -26,4 +30,7 @@ main{
 }
 .foto{
     font-size: 10px;
+}
+ul{
+    margin-left: 1%;
 }
