@@ -10,13 +10,12 @@ header{
     height: 130px;
 }
 #logo{
-    margin-left: 7%;
-    margin-top: 2%;
-    width: 15%;  
+    margin-top: 50px;
+    width: 25%;  
 }
-main, footer{
+.wrapper{
     margin: auto;
-    width: 50%;
+    width: 1100px;
     text-align: left;
 }
 section{
