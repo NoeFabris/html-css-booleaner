@@ -3,23 +3,24 @@
     padding: 0;
     Box-sizing:border-box;
 }
-.testata{
+header{
     background-color: rgb(0, 174, 255);
     background-image: url(img/pattern.png);
     background-size: contain;
+    height: 130px;
 }
 #logo{
     margin-left: 7%;
-    margin-top: 3%;
+    margin-top: 2%;
     width: 15%;  
 }
-main{
+main, footer{
     margin: auto;
     width: 50%;
     text-align: left;
 }
 section{
-    padding-top: 1%;
+    padding-top: 20px;
 }
 .autore{
     color: gray;
@@ -27,6 +28,10 @@ section{
 }
 #data{
     color: gray;
+}
+.img{
+    width: 49%;
+    height: 300px;
 }
 .foto{
     font-size: 10px;
@@ -36,8 +41,8 @@ ul{
 }
 table {
     table-layout: fixed;
+    border-collapse: collapse;
     width: 100%;
-    border: 2px solid black;   
 }
 .riga-blu{
     background-color: aqua;
@@ -46,5 +51,20 @@ table th {
     background-color: #31a2be;
     color: #FFFFFF;
     font-weight: bold;
-    text-align: left;
+}
+footer{
+    margin-top: 30px;
+}
+.imgfinal{
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+    color: white;
+}
+#grafico{
+    background-image: url(img/graph.jpg);
+
+}
+#monitor{
+    background-image: url(img/monitor.jpg);
 }
